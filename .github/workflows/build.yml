@@ -1,0 +1,33 @@
+name: Build and Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npx pnpm install
+
+    - name: Build documentation
+      run: npx pnpm run docs:build
+
+    - name: Deploy to dist branch
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add docs/.vuepress/dist -f
+        git commit -m 'Deploy documentation'
+        git push origin `git subtree split --prefix docs/.vuepress/dist main`:dist --force
