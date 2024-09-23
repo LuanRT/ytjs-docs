@@ -22,7 +22,7 @@ jobs:
       run: npx pnpm install
 
     - name: Build documentation
-      run: npx pnpm run docs:build
+      run: npm run docs:build
 
     - name: Deploy to dist branch
       run: |
