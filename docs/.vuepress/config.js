@@ -1,6 +1,10 @@
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { getDirname, path } from 'vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -21,7 +25,7 @@ export default defineUserConfig({
   ],
   title: 'YouTube.js',
   description: 'A JavaScript client for YouTube\'s private API, known as InnerTube.',
-
+  clientConfigFile: path.resolve(__dirname, 'client.js'),
   theme: defaultTheme({
     docsRepo: 'https://github.com/LuanRT/ytjs-docs',
     docsBranch: 'main',
@@ -86,6 +90,14 @@ export default defineUserConfig({
       ]
     }
   }),
-
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+      },
+    }),
+  ],
   bundler: viteBundler(),
 })

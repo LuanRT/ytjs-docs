@@ -1,9 +1,10 @@
 ---
 home: true
 title: Home
+heroText: YouTube.js
 heroImage: '/images/logo.png'
 actions:
-  - text: Guide
+  - text: Guide →
     link: /guide/
     type: primary
   - text: Documentation
