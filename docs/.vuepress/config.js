@@ -15,7 +15,7 @@ export default defineUserConfig({
     ['meta', { property: 'og:title', content: 'YouTube.js Docs' }],
     ['meta', { property: 'og:description', content: "A JavaScript client for YouTube's private API, known as InnerTube." }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://ytjs.thatsciencephile.com' }],
+    ['meta', { property: 'og:url', content: 'https://ytjs.dev' }],
     ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:image', content: '/images/logo.png' }],
   ],
@@ -82,6 +82,8 @@ export default defineUserConfig({
           ]
         }
       ],
+      '/api/': [
+      ]
     }
   }),
 
