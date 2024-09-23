@@ -9,5 +9,5 @@ actions:
   - text: Documentation
     link: /api/
     type: secondary
-footer: Licensed under the [MIT License](https://github.com/LuanRT/YouTube.js/blob/main/LICENSE)
+footer: MIT Licensed.
 ---
