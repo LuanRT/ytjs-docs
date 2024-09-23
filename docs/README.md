@@ -9,5 +9,5 @@ actions:
   - text: Documentation
     link: /api/
     type: secondary
-footer: MIT Licensed.
+footer: MIT Licensed | Copyright © LuanRT
 ---
