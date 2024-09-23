@@ -23,6 +23,9 @@ export default defineUserConfig({
   description: 'A JavaScript client for YouTube\'s private API, known as InnerTube.',
 
   theme: defaultTheme({
+    docsRepo: 'https://github.com/LuanRT/ytjs-docs',
+    docsBranch: 'main',
+    docsDir: 'docs',
     repo: 'https://github.com/LuanRT/YouTube.js',
     navbar: [
       {
