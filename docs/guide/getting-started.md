@@ -23,13 +23,12 @@ npm install github:LuanRT/YouTube.js
 ```
 
 For Deno:
-```typescript
+```ts
 import { Innertube } from 'https://deno.land/x/youtubei/deno.ts';
 ```
 
 ## Basic Usage
-```typescript
-// const { Innertube } = require('youtubei.js');
+```ts
 import { Innertube } from 'youtubei.js';
 const innertube = await Innertube.create(/* options */);
 ```
