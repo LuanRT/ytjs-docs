@@ -2,7 +2,7 @@
 
 ## What is "InnerTube"?
 
-InnerTube is YouTube's internal API. It is used by the official YouTube website and apps to fetch data.
+InnerTube is YouTube's private API. It is used by the official YouTube website and apps to fetch data.
 
 [How Project InnerTube Helped Pull YouTube Out of the Gutter](https://gizmodo.com/how-project-innertube-helped-pull-youtube-out-of-the-gu-1704946491);
 
