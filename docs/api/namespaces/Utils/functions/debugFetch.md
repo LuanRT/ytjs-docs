@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/utils/Utils.ts:192](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/utils/Utils.ts#L192)
+[src/utils/Utils.ts:207](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/utils/Utils.ts#L207)

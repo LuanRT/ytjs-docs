@@ -4,13 +4,13 @@
 
 ## Properties
 
-### audio\_only\_playablility
+### audio\_only\_playability
 
-> **audio\_only\_playablility**: `null` \| [`AudioOnlyPlayability`](../../YTNodes/classes/AudioOnlyPlayability.md)
+> **audio\_only\_playability**: `null` \| [`AudioOnlyPlayability`](../../YTNodes/classes/AudioOnlyPlayability.md)
 
 #### Defined in
 
-[src/parser/types/ParsedResponse.ts:86](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/ParsedResponse.ts#L86)
+[src/parser/types/ParsedResponse.ts:106](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/ParsedResponse.ts#L106)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/parser/types/ParsedResponse.ts:87](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/ParsedResponse.ts#L87)
+[src/parser/types/ParsedResponse.ts:107](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/ParsedResponse.ts#L107)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/parser/types/ParsedResponse.ts:85](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/ParsedResponse.ts#L85)
+[src/parser/types/ParsedResponse.ts:105](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/ParsedResponse.ts#L105)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/parser/types/ParsedResponse.ts:88](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/ParsedResponse.ts#L88)
+[src/parser/types/ParsedResponse.ts:108](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/ParsedResponse.ts#L108)
 
 ***
 
@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[src/parser/types/ParsedResponse.ts:84](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/ParsedResponse.ts#L84)
+[src/parser/types/ParsedResponse.ts:104](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/ParsedResponse.ts#L104)

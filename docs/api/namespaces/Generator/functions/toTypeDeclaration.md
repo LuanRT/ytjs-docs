@@ -24,4 +24,4 @@ Typescript type declaration
 
 ## Defined in
 
-[src/parser/generator.ts:520](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/generator.ts#L520)
+[src/parser/generator.ts:520](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/generator.ts#L520)

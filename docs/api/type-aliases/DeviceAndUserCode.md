@@ -32,4 +32,4 @@
 
 ## Defined in
 
-[src/core/OAuth2.ts:22](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/OAuth2.ts#L22)
+[src/core/OAuth2.ts:22](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/OAuth2.ts#L22)

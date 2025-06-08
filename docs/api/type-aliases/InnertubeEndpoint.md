@@ -2,8 +2,8 @@
 
 # Type Alias: InnertubeEndpoint
 
-> **InnertubeEndpoint**: `"/player"` \| `"/search"` \| `"/browse"` \| `"/next"` \| `"/reel"` \| `"/updated_metadata"` \| `"/notification/get_notification_menu"` \| `string`
+> **InnertubeEndpoint**: `"/player"` \| `"/search"` \| `"/browse"` \| `"/next"` \| `"/reel"` \| `"/updated_metadata"` \| `"/notification/get_notification_menu"` \| `"/att/get"` \| `string`
 
 ## Defined in
 
-[src/core/Actions.ts:18](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/Actions.ts#L18)
+[src/core/Actions.ts:24](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/Actions.ts#L24)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/core/clients/Kids.ts:12](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L12)
+[src/core/clients/Kids.ts:12](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L12)
 
 ## Methods
 
@@ -43,7 +43,7 @@ A list of API responses.
 
 #### Defined in
 
-[src/core/clients/Kids.ts:65](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L65)
+[src/core/clients/Kids.ts:75](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L75)
 
 ***
 
@@ -61,7 +61,7 @@ A list of API responses.
 
 #### Defined in
 
-[src/core/clients/Kids.ts:47](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L47)
+[src/core/clients/Kids.ts:57](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L57)
 
 ***
 
@@ -75,7 +75,7 @@ A list of API responses.
 
 #### Defined in
 
-[src/core/clients/Kids.ts:53](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L53)
+[src/core/clients/Kids.ts:63](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L63)
 
 ***
 
@@ -93,7 +93,7 @@ A list of API responses.
 
 #### Defined in
 
-[src/core/clients/Kids.ts:22](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L22)
+[src/core/clients/Kids.ts:22](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L22)
 
 ***
 
@@ -111,4 +111,4 @@ A list of API responses.
 
 #### Defined in
 
-[src/core/clients/Kids.ts:16](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/core/clients/Kids.ts#L16)
+[src/core/clients/Kids.ts:16](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/core/clients/Kids.ts#L16)

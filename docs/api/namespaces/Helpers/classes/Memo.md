@@ -248,7 +248,7 @@ node\_modules/typescript/lib/lib.es2015.collection.d.ts:33
 
 ##### Defined in
 
-[src/parser/helpers.ts:512](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L512)
+[src/parser/helpers.ts:503](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L503)
 
 #### getType(types)
 
@@ -270,7 +270,7 @@ node\_modules/typescript/lib/lib.es2015.collection.d.ts:33
 
 ##### Defined in
 
-[src/parser/helpers.ts:513](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L513)
+[src/parser/helpers.ts:504](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L504)
 
 ***
 

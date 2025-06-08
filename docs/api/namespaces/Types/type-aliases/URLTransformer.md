@@ -14,4 +14,4 @@
 
 ## Defined in
 
-[src/types/FormatUtils.ts:4](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/types/FormatUtils.ts#L4)
+[src/types/FormatUtils.ts:4](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/types/FormatUtils.ts#L4)

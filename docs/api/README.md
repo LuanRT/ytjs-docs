@@ -32,12 +32,6 @@ Re-exports [ContinuationRequest](namespaces/APIResponseTypes/type-aliases/Contin
 
 ***
 
-### CpnSource
-
-Re-exports [CpnSource](namespaces/APIResponseTypes/type-aliases/CpnSource.md)
-
-***
-
 ### CreateCommentRequest
 
 Re-exports [CreateCommentRequest](namespaces/APIResponseTypes/type-aliases/CreateCommentRequest.md)
@@ -92,6 +86,12 @@ Re-exports [GetKidsBlocklistPickerRequest](namespaces/APIResponseTypes/type-alia
 
 ***
 
+### IBotguardChallenge
+
+Re-exports [IBotguardChallenge](namespaces/APIResponseTypes/interfaces/IBotguardChallenge.md)
+
+***
+
 ### IBrowseResponse
 
 Re-exports [IBrowseResponse](namespaces/APIResponseTypes/type-aliases/IBrowseResponse.md)
@@ -101,6 +101,12 @@ Re-exports [IBrowseResponse](namespaces/APIResponseTypes/type-aliases/IBrowseRes
 ### IEndpoint
 
 Re-exports [IEndpoint](namespaces/APIResponseTypes/interfaces/IEndpoint.md)
+
+***
+
+### IGetChallengeResponse
+
+Re-exports [IGetChallengeResponse](namespaces/APIResponseTypes/type-aliases/IGetChallengeResponse.md)
 
 ***
 
@@ -164,6 +170,12 @@ Re-exports [IPlayerResponse](namespaces/APIResponseTypes/type-aliases/IPlayerRes
 
 ***
 
+### IRawBotguardChallenge
+
+Re-exports [IRawBotguardChallenge](namespaces/APIResponseTypes/interfaces/IRawBotguardChallenge.md)
+
+***
+
 ### IRawPlayerConfig
 
 Re-exports [IRawPlayerConfig](namespaces/APIResponseTypes/interfaces/IRawPlayerConfig.md)
@@ -176,15 +188,15 @@ Re-exports [IRawResponse](namespaces/APIResponseTypes/interfaces/IRawResponse.md
 
 ***
 
-### IResolveURLResponse
+### IRawTrustedResource
 
-Re-exports [IResolveURLResponse](namespaces/APIResponseTypes/type-aliases/IResolveURLResponse.md)
+Re-exports [IRawTrustedResource](namespaces/APIResponseTypes/interfaces/IRawTrustedResource.md)
 
 ***
 
-### IResponseContext
+### IResolveURLResponse
 
-Re-exports [IResponseContext](namespaces/APIResponseTypes/interfaces/IResponseContext.md)
+Re-exports [IResolveURLResponse](namespaces/APIResponseTypes/type-aliases/IResolveURLResponse.md)
 
 ***
 
@@ -194,15 +206,15 @@ Re-exports [ISearchResponse](namespaces/APIResponseTypes/type-aliases/ISearchRes
 
 ***
 
-### IServiceTrackingParams
-
-Re-exports [IServiceTrackingParams](namespaces/APIResponseTypes/interfaces/IServiceTrackingParams.md)
-
-***
-
 ### IStreamingData
 
 Re-exports [IStreamingData](namespaces/APIResponseTypes/interfaces/IStreamingData.md)
+
+***
+
+### ITrustedResource
+
+Re-exports [ITrustedResource](namespaces/APIResponseTypes/interfaces/ITrustedResource.md)
 
 ***
 

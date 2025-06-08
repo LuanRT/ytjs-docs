@@ -13,19 +13,25 @@
 - [`AccountItemSectionHeader`](../../YTNodes/classes/AccountItemSectionHeader.md)
 - [`AccountSectionList`](../../YTNodes/classes/AccountSectionList.md)
 - [`AppendContinuationItemsAction`](../../YTNodes/classes/AppendContinuationItemsAction.md)
+- [`ChangeEngagementPanelVisibilityAction`](../../YTNodes/classes/ChangeEngagementPanelVisibilityAction.md)
 - [`GetMultiPageMenuAction`](../../YTNodes/classes/GetMultiPageMenuAction.md)
 - [`OpenPopupAction`](../../YTNodes/classes/OpenPopupAction.md)
 - [`SendFeedbackAction`](../../YTNodes/classes/SendFeedbackAction.md)
 - [`SignalAction`](../../YTNodes/classes/SignalAction.md)
+- [`UpdateChannelSwitcherPageAction`](../../YTNodes/classes/UpdateChannelSwitcherPageAction.md)
 - [`UpdateEngagementPanelAction`](../../YTNodes/classes/UpdateEngagementPanelAction.md)
 - [`UpdateSubscribeButtonAction`](../../YTNodes/classes/UpdateSubscribeButtonAction.md)
+- [`ActiveAccountHeader`](../../YTNodes/classes/ActiveAccountHeader.md)
 - [`AddToPlaylist`](../../YTNodes/classes/AddToPlaylist.md)
 - [`Alert`](../../YTNodes/classes/Alert.md)
 - [`AlertWithButton`](../../YTNodes/classes/AlertWithButton.md)
+- [`AnimatedThumbnailOverlayView`](../../YTNodes/classes/AnimatedThumbnailOverlayView.md)
 - [`AttributionView`](../../YTNodes/classes/AttributionView.md)
 - [`AudioOnlyPlayability`](../../YTNodes/classes/AudioOnlyPlayability.md)
 - [`AutomixPreviewVideo`](../../YTNodes/classes/AutomixPreviewVideo.md)
+- [`AvatarStackView`](../../YTNodes/classes/AvatarStackView.md)
 - [`AvatarView`](../../YTNodes/classes/AvatarView.md)
+- [`BackgroundPromo`](../../YTNodes/classes/BackgroundPromo.md)
 - [`BackstageImage`](../../YTNodes/classes/BackstageImage.md)
 - [`BackstagePost`](../../YTNodes/classes/BackstagePost.md)
 - [`BackstagePostThread`](../../YTNodes/classes/BackstagePostThread.md)
@@ -33,6 +39,7 @@
 - [`BrowseFeedActions`](../../YTNodes/classes/BrowseFeedActions.md)
 - [`BrowserMediaSession`](../../YTNodes/classes/BrowserMediaSession.md)
 - [`Button`](../../YTNodes/classes/Button.md)
+- [`ButtonCardView`](../../YTNodes/classes/ButtonCardView.md)
 - [`ButtonView`](../../YTNodes/classes/ButtonView.md)
 - [`C4TabbedHeader`](../../YTNodes/classes/C4TabbedHeader.md)
 - [`CallToActionButton`](../../YTNodes/classes/CallToActionButton.md)
@@ -40,7 +47,9 @@
 - [`CardCollection`](../../YTNodes/classes/CardCollection.md)
 - [`CarouselHeader`](../../YTNodes/classes/CarouselHeader.md)
 - [`CarouselItem`](../../YTNodes/classes/CarouselItem.md)
+- [`CarouselItemView`](../../YTNodes/classes/CarouselItemView.md)
 - [`CarouselLockup`](../../YTNodes/classes/CarouselLockup.md)
+- [`CarouselTitleView`](../../YTNodes/classes/CarouselTitleView.md)
 - [`Channel`](../../YTNodes/classes/Channel.md)
 - [`ChannelAboutFullMetadata`](../../YTNodes/classes/ChannelAboutFullMetadata.md)
 - [`ChannelAgeGate`](../../YTNodes/classes/ChannelAgeGate.md)
@@ -53,6 +62,8 @@
 - [`ChannelOptions`](../../YTNodes/classes/ChannelOptions.md)
 - [`ChannelOwnerEmptyState`](../../YTNodes/classes/ChannelOwnerEmptyState.md)
 - [`ChannelSubMenu`](../../YTNodes/classes/ChannelSubMenu.md)
+- [`ChannelSwitcherHeader`](../../YTNodes/classes/ChannelSwitcherHeader.md)
+- [`ChannelSwitcherPage`](../../YTNodes/classes/ChannelSwitcherPage.md)
 - [`ChannelTagline`](../../YTNodes/classes/ChannelTagline.md)
 - [`ChannelThumbnailWithLink`](../../YTNodes/classes/ChannelThumbnailWithLink.md)
 - [`ChannelVideoPlayer`](../../YTNodes/classes/ChannelVideoPlayer.md)
@@ -62,6 +73,7 @@
 - [`ChipCloud`](../../YTNodes/classes/ChipCloud.md)
 - [`ChipCloudChip`](../../YTNodes/classes/ChipCloudChip.md)
 - [`ChipView`](../../YTNodes/classes/ChipView.md)
+- [`ClientSideToggleMenuItem`](../../YTNodes/classes/ClientSideToggleMenuItem.md)
 - [`ClipAdState`](../../YTNodes/classes/ClipAdState.md)
 - [`ClipCreation`](../../YTNodes/classes/ClipCreation.md)
 - [`ClipCreationScrubber`](../../YTNodes/classes/ClipCreationScrubber.md)
@@ -76,6 +88,7 @@
 - [`GetKidsBlocklistPickerCommand`](../../YTNodes/classes/GetKidsBlocklistPickerCommand.md)
 - [`RunAttestationCommand`](../../YTNodes/classes/RunAttestationCommand.md)
 - [`ShowDialogCommand`](../../YTNodes/classes/ShowDialogCommand.md)
+- [`UpdateEngagementPanelContentCommand`](../../YTNodes/classes/UpdateEngagementPanelContentCommand.md)
 - [`AuthorCommentBadge`](../../YTNodes/classes/AuthorCommentBadge.md)
 - [`CommentActionButtons`](../../YTNodes/classes/CommentActionButtons.md)
 - [`CommentDialog`](../../YTNodes/classes/CommentDialog.md)
@@ -130,6 +143,7 @@
 - [`DeletePlaylistEndpoint`](../../YTNodes/classes/DeletePlaylistEndpoint.md)
 - [`FeedbackEndpoint`](../../YTNodes/classes/FeedbackEndpoint.md)
 - [`GetAccountsListInnertubeEndpoint`](../../YTNodes/classes/GetAccountsListInnertubeEndpoint.md)
+- [`HideEngagementPanelEndpoint`](../../YTNodes/classes/HideEngagementPanelEndpoint.md)
 - [`LikeEndpoint`](../../YTNodes/classes/LikeEndpoint.md)
 - [`LiveChatItemContextMenuEndpoint`](../../YTNodes/classes/LiveChatItemContextMenuEndpoint.md)
 - [`ModifyChannelNotificationPreferenceEndpoint`](../../YTNodes/classes/ModifyChannelNotificationPreferenceEndpoint.md)
@@ -138,6 +152,7 @@
 - [`ReelWatchEndpoint`](../../YTNodes/classes/ReelWatchEndpoint.md)
 - [`SearchEndpoint`](../../YTNodes/classes/SearchEndpoint.md)
 - [`ShareEntityServiceEndpoint`](../../YTNodes/classes/ShareEntityServiceEndpoint.md)
+- [`ShowEngagementPanelEndpoint`](../../YTNodes/classes/ShowEngagementPanelEndpoint.md)
 - [`SignalServiceEndpoint`](../../YTNodes/classes/SignalServiceEndpoint.md)
 - [`SubscribeEndpoint`](../../YTNodes/classes/SubscribeEndpoint.md)
 - [`UnsubscribeEndpoint`](../../YTNodes/classes/UnsubscribeEndpoint.md)
@@ -184,6 +199,7 @@
 - [`HorizontalCardList`](../../YTNodes/classes/HorizontalCardList.md)
 - [`HorizontalList`](../../YTNodes/classes/HorizontalList.md)
 - [`HorizontalMovieList`](../../YTNodes/classes/HorizontalMovieList.md)
+- [`HowThisWasMadeSectionView`](../../YTNodes/classes/HowThisWasMadeSectionView.md)
 - [`IconLink`](../../YTNodes/classes/IconLink.md)
 - [`ImageBannerView`](../../YTNodes/classes/ImageBannerView.md)
 - [`IncludingResultsFor`](../../YTNodes/classes/IncludingResultsFor.md)
@@ -202,12 +218,15 @@
 - [`AddChatItemAction`](../../YTNodes/classes/AddChatItemAction.md)
 - [`AddLiveChatTickerItemAction`](../../YTNodes/classes/AddLiveChatTickerItemAction.md)
 - [`DimChatItemAction`](../../YTNodes/classes/DimChatItemAction.md)
+- [`BumperUserEduContentView`](../../YTNodes/classes/BumperUserEduContentView.md)
+- [`CreatorHeartView`](../../YTNodes/classes/CreatorHeartView.md)
 - [`LiveChatAutoModMessage`](../../YTNodes/classes/LiveChatAutoModMessage.md)
 - [`LiveChatBanner`](../../YTNodes/classes/LiveChatBanner.md)
 - [`LiveChatBannerChatSummary`](../../YTNodes/classes/LiveChatBannerChatSummary.md)
 - [`LiveChatBannerHeader`](../../YTNodes/classes/LiveChatBannerHeader.md)
 - [`LiveChatBannerPoll`](../../YTNodes/classes/LiveChatBannerPoll.md)
 - [`LiveChatBannerRedirect`](../../YTNodes/classes/LiveChatBannerRedirect.md)
+- [`LiveChatItemBumperView`](../../YTNodes/classes/LiveChatItemBumperView.md)
 - [`LiveChatMembershipItem`](../../YTNodes/classes/LiveChatMembershipItem.md)
 - [`LiveChatModeChangeMessage`](../../YTNodes/classes/LiveChatModeChangeMessage.md)
 - [`LiveChatPaidMessage`](../../YTNodes/classes/LiveChatPaidMessage.md)
@@ -218,8 +237,12 @@
 - [`LiveChatSponsorshipsGiftPurchaseAnnouncement`](../../YTNodes/classes/LiveChatSponsorshipsGiftPurchaseAnnouncement.md)
 - [`LiveChatSponsorshipsGiftRedemptionAnnouncement`](../../YTNodes/classes/LiveChatSponsorshipsGiftRedemptionAnnouncement.md)
 - [`LiveChatSponsorshipsHeader`](../../YTNodes/classes/LiveChatSponsorshipsHeader.md)
+- [`LiveChatTextMessage`](../../YTNodes/classes/LiveChatTextMessage.md)
 - [`LiveChatTickerPaidMessageItem`](../../YTNodes/classes/LiveChatTickerPaidMessageItem.md)
+- [`LiveChatTickerPaidStickerItem`](../../YTNodes/classes/LiveChatTickerPaidStickerItem.md)
 - [`LiveChatTickerSponsorItem`](../../YTNodes/classes/LiveChatTickerSponsorItem.md)
+- [`LiveChatViewerEngagementMessage`](../../YTNodes/classes/LiveChatViewerEngagementMessage.md)
+- [`PdgReplyButtonView`](../../YTNodes/classes/PdgReplyButtonView.md)
 - [`PollHeader`](../../YTNodes/classes/PollHeader.md)
 - [`LiveChatActionPanel`](../../YTNodes/classes/LiveChatActionPanel.md)
 - [`MarkChatItemAsDeletedAction`](../../YTNodes/classes/MarkChatItemAsDeletedAction.md)
@@ -228,6 +251,7 @@
 - [`RemoveChatItemAction`](../../YTNodes/classes/RemoveChatItemAction.md)
 - [`RemoveChatItemByAuthorAction`](../../YTNodes/classes/RemoveChatItemByAuthorAction.md)
 - [`ReplaceChatItemAction`](../../YTNodes/classes/ReplaceChatItemAction.md)
+- [`ReplaceLiveChatAction`](../../YTNodes/classes/ReplaceLiveChatAction.md)
 - [`ReplayChatItemAction`](../../YTNodes/classes/ReplayChatItemAction.md)
 - [`ShowLiveChatActionPanelAction`](../../YTNodes/classes/ShowLiveChatActionPanelAction.md)
 - [`ShowLiveChatDialogAction`](../../YTNodes/classes/ShowLiveChatDialogAction.md)
@@ -248,6 +272,7 @@
 - [`LockupView`](../../YTNodes/classes/LockupView.md)
 - [`MacroMarkersInfoItem`](../../YTNodes/classes/MacroMarkersInfoItem.md)
 - [`MacroMarkersList`](../../YTNodes/classes/MacroMarkersList.md)
+- [`MacroMarkersListEntity`](../../YTNodes/classes/MacroMarkersListEntity.md)
 - [`MacroMarkersListItem`](../../YTNodes/classes/MacroMarkersListItem.md)
 - [`Menu`](../../YTNodes/classes/Menu.md)
 - [`MenuFlexibleItem`](../../YTNodes/classes/MenuFlexibleItem.md)
@@ -305,9 +330,15 @@
 - [`MusicThumbnail`](../../YTNodes/classes/MusicThumbnail.md)
 - [`MusicTwoRowItem`](../../YTNodes/classes/MusicTwoRowItem.md)
 - [`MusicVisualHeader`](../../YTNodes/classes/MusicVisualHeader.md)
+- [`MobileTopbar`](../../YTNodes/classes/MobileTopbar.md)
+- [`MultiPageMenuSection`](../../YTNodes/classes/MultiPageMenuSection.md)
+- [`PivotBar`](../../YTNodes/classes/PivotBar.md)
+- [`PivotBarItem`](../../YTNodes/classes/PivotBarItem.md)
+- [`TopbarMenuButton`](../../YTNodes/classes/TopbarMenuButton.md)
 - [`NavigationEndpoint`](../../YTNodes/classes/NavigationEndpoint.md)
 - [`Notification`](../../YTNodes/classes/Notification.md)
 - [`NotificationAction`](../../YTNodes/classes/NotificationAction.md)
+- [`OpenOnePickAddVideoModalCommand`](../../YTNodes/classes/OpenOnePickAddVideoModalCommand.md)
 - [`PageHeader`](../../YTNodes/classes/PageHeader.md)
 - [`PageHeaderView`](../../YTNodes/classes/PageHeaderView.md)
 - [`PageIntroduction`](../../YTNodes/classes/PageIntroduction.md)
@@ -338,6 +369,7 @@
 - [`PlaylistSidebar`](../../YTNodes/classes/PlaylistSidebar.md)
 - [`PlaylistSidebarPrimaryInfo`](../../YTNodes/classes/PlaylistSidebarPrimaryInfo.md)
 - [`PlaylistSidebarSecondaryInfo`](../../YTNodes/classes/PlaylistSidebarSecondaryInfo.md)
+- [`PlaylistThumbnailOverlay`](../../YTNodes/classes/PlaylistThumbnailOverlay.md)
 - [`PlaylistVideo`](../../YTNodes/classes/PlaylistVideo.md)
 - [`PlaylistVideoList`](../../YTNodes/classes/PlaylistVideoList.md)
 - [`PlaylistVideoThumbnail`](../../YTNodes/classes/PlaylistVideoThumbnail.md)
@@ -412,10 +444,13 @@
 - [`Tab`](../../YTNodes/classes/Tab.md)
 - [`Tabbed`](../../YTNodes/classes/Tabbed.md)
 - [`TabbedSearchResults`](../../YTNodes/classes/TabbedSearchResults.md)
+- [`TextCarouselItemView`](../../YTNodes/classes/TextCarouselItemView.md)
 - [`TextFieldView`](../../YTNodes/classes/TextFieldView.md)
 - [`TextHeader`](../../YTNodes/classes/TextHeader.md)
 - [`ThirdPartyShareTargetSection`](../../YTNodes/classes/ThirdPartyShareTargetSection.md)
 - [`ThumbnailBadgeView`](../../YTNodes/classes/ThumbnailBadgeView.md)
+- [`ThumbnailBottomOverlayView`](../../YTNodes/classes/ThumbnailBottomOverlayView.md)
+- [`ThumbnailHoverOverlayToggleActionsView`](../../YTNodes/classes/ThumbnailHoverOverlayToggleActionsView.md)
 - [`ThumbnailHoverOverlayView`](../../YTNodes/classes/ThumbnailHoverOverlayView.md)
 - [`ThumbnailLandscapePortrait`](../../YTNodes/classes/ThumbnailLandscapePortrait.md)
 - [`ThumbnailOverlayBadgeView`](../../YTNodes/classes/ThumbnailOverlayBadgeView.md)
@@ -427,6 +462,7 @@
 - [`ThumbnailOverlayNowPlaying`](../../YTNodes/classes/ThumbnailOverlayNowPlaying.md)
 - [`ThumbnailOverlayPinking`](../../YTNodes/classes/ThumbnailOverlayPinking.md)
 - [`ThumbnailOverlayPlaybackStatus`](../../YTNodes/classes/ThumbnailOverlayPlaybackStatus.md)
+- [`ThumbnailOverlayProgressBarView`](../../YTNodes/classes/ThumbnailOverlayProgressBarView.md)
 - [`ThumbnailOverlayResumePlayback`](../../YTNodes/classes/ThumbnailOverlayResumePlayback.md)
 - [`ThumbnailOverlaySidePanel`](../../YTNodes/classes/ThumbnailOverlaySidePanel.md)
 - [`ThumbnailOverlayTimeStatus`](../../YTNodes/classes/ThumbnailOverlayTimeStatus.md)
@@ -464,6 +500,7 @@
 - [`VideoDescriptionMusicSection`](../../YTNodes/classes/VideoDescriptionMusicSection.md)
 - [`VideoDescriptionTranscriptSection`](../../YTNodes/classes/VideoDescriptionTranscriptSection.md)
 - [`VideoInfoCardContent`](../../YTNodes/classes/VideoInfoCardContent.md)
+- [`VideoMetadataCarouselView`](../../YTNodes/classes/VideoMetadataCarouselView.md)
 - [`VideoOwner`](../../YTNodes/classes/VideoOwner.md)
 - [`VideoPrimaryInfo`](../../YTNodes/classes/VideoPrimaryInfo.md)
 - [`VideoSecondaryInfo`](../../YTNodes/classes/VideoSecondaryInfo.md)
@@ -506,7 +543,7 @@
 
 #### Defined in
 
-[src/parser/helpers.ts:10](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L10)
+[src/parser/helpers.ts:10](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L10)
 
 ## Properties
 
@@ -516,7 +553,7 @@
 
 #### Defined in
 
-[src/parser/helpers.ts:8](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L8)
+[src/parser/helpers.ts:8](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L8)
 
 ***
 
@@ -526,7 +563,7 @@
 
 #### Defined in
 
-[src/parser/helpers.ts:7](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L7)
+[src/parser/helpers.ts:7](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L7)
 
 ## Methods
 
@@ -560,7 +597,7 @@ If the node is not of the given type
 
 #### Defined in
 
-[src/parser/helpers.ts:38](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L38)
+[src/parser/helpers.ts:29](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L29)
 
 ***
 
@@ -590,7 +627,7 @@ Whether the node has the key
 
 #### Defined in
 
-[src/parser/helpers.ts:50](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L50)
+[src/parser/helpers.ts:41](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L41)
 
 ***
 
@@ -620,7 +657,7 @@ whether the node is of the given type
 
 #### Defined in
 
-[src/parser/helpers.ts:28](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L28)
+[src/parser/helpers.ts:19](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L19)
 
 ***
 
@@ -654,4 +691,4 @@ If the node does not have the key
 
 #### Defined in
 
-[src/parser/helpers.ts:60](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/helpers.ts#L60)
+[src/parser/helpers.ts:51](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/helpers.ts#L51)

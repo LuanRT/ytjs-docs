@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[src/utils/HTTPClient.ts:15](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/utils/HTTPClient.ts#L15)
+[src/utils/HTTPClient.ts:14](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/utils/HTTPClient.ts#L14)

@@ -28,4 +28,4 @@
 
 ## Defined in
 
-[src/parser/types/CommandEndpoints.ts:143](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/types/CommandEndpoints.ts#L143)
+[src/parser/types/CommandEndpoints.ts:143](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/types/CommandEndpoints.ts#L143)

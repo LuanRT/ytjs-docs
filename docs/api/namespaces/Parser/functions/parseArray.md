@@ -30,7 +30,7 @@ YTNode types that are allowed to be parsed.
 
 ### Defined in
 
-[src/parser/parser.ts:575](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/parser.ts#L575)
+[src/parser/parser.ts:600](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/parser.ts#L600)
 
 ## parseArray(data, validType)
 
@@ -52,7 +52,7 @@ YTNode types that are allowed to be parsed.
 
 ### Defined in
 
-[src/parser/parser.ts:576](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/parser.ts#L576)
+[src/parser/parser.ts:601](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/parser.ts#L601)
 
 ## parseArray(data)
 
@@ -68,4 +68,4 @@ YTNode types that are allowed to be parsed.
 
 ### Defined in
 
-[src/parser/parser.ts:577](https://github.com/LuanRT/YouTube.js/blob/4729016fb98e7045ee4043857be7eef780c01e35/src/parser/parser.ts#L577)
+[src/parser/parser.ts:602](https://github.com/LuanRT/YouTube.js/blob/e1650e12979e68b9546bc63989f86b651960a10a/src/parser/parser.ts#L602)
