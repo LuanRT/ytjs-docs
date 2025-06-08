@@ -1,10 +1,28 @@
 # Authentication
 
-## OAuth2
+## Cookies
 
-### YouTube TV OAuth2
+This is the recommended way to authenticate with YouTube for most web based client types:
 
-The YouTube app for smart TVs uses OAuth2 for authentication, and since it also uses InnerTube, we can retrieve valid tokens with its client ID and client secret. This is the recommended way to authenticate, as it doesn't require you to provide your own credentials.
+```js
+const innertube = await Innertube.create({
+  cookie: '...'
+});
+```
+
+To get your cookies:
+1. Open a new incognito/private window in your browser (this prevents your cookies from being rotated)
+2. Log into YouTube in the incognito window
+3. Open DevTools (F12)
+4. Go to the Network tab
+5. Copy the value of the `Cookie` header from any request to `youtube.com`
+6. Close the incognito window after copying the cookies
+
+## YouTube TV OAuth2 (Limited)
+
+**Important Note:** Due to changes made by Google, OAuth2 authentication now only works with the TV Innertube client. For other client types, please use cookie-based authentication (see the Cookies section above).
+
+The YouTube app for smart TVs uses OAuth2 for authentication, and since it also uses InnerTube, we can retrieve valid tokens with its client ID and client secret.
 
 ```ts
 innertube.session.on('auth-pending', (data) => {
@@ -23,11 +41,7 @@ innertube.session.on('update-credentials', ({ credentials }) => { /** do somethi
 await innertube.session.signIn(/* credentials */);
 ```
 
-A working example can be found [here](https://github.com/LuanRT/YouTube.js/blob/main/examples/auth/yttv-oauth2.js).
-
-### Custom OAuth2
-
-Just like the official Data API, YouTube.js allows you to use your own OAuth2 credentials. A working example can be found [here](https://github.com/LuanRT/YouTube.js/blob/main/examples/auth/custom-oauth2-creds).
+An example can be found [here](https://github.com/LuanRT/YouTube.js/blob/main/examples/auth/yttv-oauth2.js).
 
 ### Caching
 
@@ -50,15 +64,4 @@ await innertube.session.signOut();
 // if you don't want to sign out of the current session
 // and only want to delete the cached credentials, use:
 await innertube.session.oauth.removeCache();
-```
-
-## Cookies
-
-**NOTE:**
-This is not as reliable as OAuth2.
-
-```js
-const innertube = await Innertube.create({
-  cookie: '...'
-});
 ```
