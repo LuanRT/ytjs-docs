@@ -32,6 +32,7 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/LuanRT/ytjs-docs',
     docsBranch: 'main',
     docsDir: 'docs',
+    contributors: false,
     repo: 'https://github.com/LuanRT/YouTube.js',
     navbar: [
       {
@@ -47,6 +48,7 @@ export default defineUserConfig({
         link: 'https://github.com/sponsors/LuanRT',
       },
     ],
+    colorModeSwitch: true,
     sidebar: {
       '/guide/': [
         {
