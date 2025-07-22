@@ -3,6 +3,8 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { getDirname, path } from 'vuepress/utils'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { prismjsPlugin } from '@vuepress/plugin-prismjs';
 
 const __dirname = getDirname(import.meta.url)
 
@@ -97,6 +99,13 @@ export default defineUserConfig({
     }
   }),
   plugins: [
+    prismjsPlugin({
+      theme: 'one-dark',
+    }),
+    sitemapPlugin({
+      hostname: 'https://ytjs.dev',
+      exclude: ['/404.html'],
+    }),
     searchPlugin({
       locales: {
         '/': {
