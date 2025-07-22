@@ -1,0 +1,31 @@
+:root {
+  --vp-c-scrollbar-bg: #282828;
+  --vp-c-scrollbar-thumb-bg: #4d4d4d;
+  --vp-c-scrollbar-thumb-hover-bg: #6b6b6b;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--vp-c-scrollbar-thumb-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vp-c-scrollbar-thumb-hover-bg);
+}
+
+.vp-navbar-item a[href*="sponsor"] {
+  color: #e91e63 !important;
+  font-weight: 600;
+}
+
+.vp-navbar-item a[href*="sponsor"]:hover {
+  color: #ad1457 !important;
+}

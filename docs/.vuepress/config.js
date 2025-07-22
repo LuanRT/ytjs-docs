@@ -40,6 +40,10 @@ export default defineUserConfig({
         text: 'Discord',
         link: 'https://discord.gg/syDu7Yks54'
       },
+      {
+        text: '❤️ Sponsor',
+        link: 'https://github.com/sponsors/LuanRT',
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -87,6 +91,8 @@ export default defineUserConfig({
         }
       ],
       '/api/': [
+      ],
+       '/googlevideo/': [
       ]
     }
   }),

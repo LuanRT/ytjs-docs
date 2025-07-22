@@ -1,3 +1,7 @@
+:::warning 
+Due to recent changes in the InnerTube API, the examples provided below may not work as expected. Please refer to [https://github.com/LuanRT/yt-sabr-shaka-demo](https://github.com/LuanRT/yt-sabr-shaka-demo) for a more up-to-date implementation.
+:::
+
 # Browser Usage
 To use YouTube.js in the browser, you must proxy requests through your own server. A simple proxy implementation in Deno is available at [`examples/browser/proxy/deno.ts`](https://github.com/LuanRT/YouTube.js/tree/main/examples/browser/proxy/deno.ts).
 
@@ -5,19 +9,12 @@ You may provide your own fetch implementation to be used by YouTube.js, which we
 
 
 ```ts
-// Multiple exports are available for the web.
-// Unbundled ESM version
 import { Innertube } from 'youtubei.js/web';
-// Bundled ESM version
-// import { Innertube } from 'youtubei.js/web.bundle';
-// Production Bundled ESM version
-// import { Innertube } from 'youtubei.js/web.bundle.min';
 await Innertube.create({
   fetch: async (input: RequestInfo | URL, init?: RequestInit) => {
     // Modify the request
     // and send it to the proxy
 
-    // fetch the URL
     return fetch(request, init);
   }
 });
@@ -35,7 +32,7 @@ import dashjs from 'dashjs';
 const innertube = await Innertube.create({ /* setup - see above */ });
 
 // Get the video info
-const videoInfo = await innertube.getInfo('videoId');
+const videoInfo = await innertube.getInfo('videoId', { client: 'TV' });
 
 // now convert to a dash manifest
 // again - to be able to stream the video in the browser - you must proxy the requests through your own server
@@ -53,5 +50,3 @@ const videoElement = document.getElementById('video_player');
 const player = dashjs.MediaPlayer().create();
 player.initialize(videoElement, uri, true);
 ```
-
-A working example can be found in [`examples/browser/web`](https://github.com/LuanRT/YouTube.js/blob/main/examples/browser/web).

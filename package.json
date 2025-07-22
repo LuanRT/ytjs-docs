@@ -6,19 +6,28 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build docs",
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --clean-cache --clean-temp",
     "docs:update-package": "pnpm dlx vp-update",
+    "docs:serve": "http-server docs/.vuepress/dist",
     "deploy": "wrangler pages deploy docs/.vuepress/dist"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.15",
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
     "@vuepress/plugin-search": "2.0.0-rc.47",
-    "@vuepress/theme-default": "^2.0.0-rc.11",
+    "@vuepress/theme-default": "^2.0.0-rc.110",
+    "rimraf": "^6.0.1",
     "sass": "^1.79.3",
     "vue": "^3.4.0",
     "vuepress": "^2.0.0-rc.15",
     "wrangler": "^3.78.7"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=20.6.0"
   }
 }

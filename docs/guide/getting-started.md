@@ -46,28 +46,44 @@ const innertube = await Innertube.create(/* options */);
 - **Description**: Geolocation setting.
 - **Default**: `US`
 
+#### `user_agent` (string)
+- **Description**: User agent for InnerTube requests.
+- **Default**: `undefined`
+
 #### `account_index` (number)
-- **Description**: Account index for multi-account sessions. Works only with cookies.
+- **Description**: The account index to use. This is useful if you have multiple accounts logged in. Works only with cookies.
 - **Default**: `0`
 
+#### `on_behalf_of_user` (string)
+- **Description**: Page ID of the YouTube profile/channel to use, if the logged-in account has multiple profiles.
+- **Default**: `undefined`
+
 #### `visitor_data` (string)
-- **Description**: Persistent visitor data string for session tailoring.
+- **Description**: A persistent visitor data string that allows YouTube to provide tailored content even when not logged in.
 - **Default**: `undefined`
 
 #### `po_token` (string)
-- **Description**: Proof of Origin Token for attestation.
+- **Description**: Session-bound Proof of Origin Token (attestation token) used to confirm the request is from a real client.
+- **Default**: `undefined`
+
+#### `player_id` (string)
+- **Description**: Player ID override. Can be used to work around temporary issues when YouTube introduces breaking changes by forcing an older player.
 - **Default**: `undefined`
 
 #### `retrieve_player` (boolean)
-- **Description**: Fetches JS player for video format deciphering.
+- **Description**: Specifies whether to retrieve the JS player. Disabling this will make session creation faster, but deciphering formats will not be possible.
 - **Default**: `true`
 
 #### `enable_safety_mode` (boolean)
-- **Description**: Enables YouTube safety mode.
+- **Description**: Enables YouTube's safety mode, which prevents potentially unsafe content from being loaded.
 - **Default**: `false`
 
+#### `retrieve_innertube_config` (boolean)
+- **Description**: Specifies whether to retrieve the InnerTube config. Useful for "onesie" requests.
+- **Default**: `true`
+
 #### `generate_session_locally` (boolean)
-- **Description**: Generates session data locally instead of retrieving it.
+- **Description**: Generates session data locally instead of retrieving it from YouTube for better performance. This is ignored if a session is already cached.
 - **Default**: `false`
 
 #### `enable_session_cache` (boolean)
