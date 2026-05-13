@@ -2,16 +2,16 @@
 
 # Function: streamToIterable()
 
-> **streamToIterable**(`stream`): `AsyncGenerator`\<`Uint8Array`, `void`, `unknown`\>
+> **streamToIterable**(`stream`): `AsyncGenerator`\<`Uint8Array`\<`ArrayBufferLike`\>, `void`, `unknown`\>
 
-Defined in: [src/utils/Utils.ts:189](https://github.com/LuanRT/YouTube.js/blob/0733f60b57877f6b8b87dfd5cc6195b5085f5c09/src/utils/Utils.ts#L189)
+Defined in: [src/utils/Utils.ts:189](https://github.com/LuanRT/YouTube.js/blob/853a36307b5d644ada14dcb1216c2c22c2ae7b73/src/utils/Utils.ts#L189)
 
 ## Parameters
 
 ### stream
 
-`ReadableStream`\<`Uint8Array`\>
+`ReadableStream`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
 ## Returns
 
-`AsyncGenerator`\<`Uint8Array`, `void`, `unknown`\>
+`AsyncGenerator`\<`Uint8Array`\<`ArrayBufferLike`\>, `void`, `unknown`\>

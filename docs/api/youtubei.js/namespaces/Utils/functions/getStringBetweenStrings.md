@@ -4,7 +4,7 @@
 
 > **getStringBetweenStrings**(`data`, `start_string`, `end_string`): `string` \| `undefined`
 
-Defined in: [src/utils/Utils.ts:84](https://github.com/LuanRT/YouTube.js/blob/0733f60b57877f6b8b87dfd5cc6195b5085f5c09/src/utils/Utils.ts#L84)
+Defined in: [src/utils/Utils.ts:84](https://github.com/LuanRT/YouTube.js/blob/853a36307b5d644ada14dcb1216c2c22c2ae7b73/src/utils/Utils.ts#L84)
 
 Finds a string between two delimiters.
 

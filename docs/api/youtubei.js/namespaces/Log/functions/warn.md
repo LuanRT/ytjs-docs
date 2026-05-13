@@ -2,9 +2,9 @@
 
 # Function: warn()
 
-> **warn**(`tag?`, ...`args?`): `void`
+> **warn**(`tag?`, ...`args`): `void`
 
-Defined in: [src/utils/Log.ts:41](https://github.com/LuanRT/YouTube.js/blob/0733f60b57877f6b8b87dfd5cc6195b5085f5c09/src/utils/Log.ts#L41)
+Defined in: [src/utils/Log.ts:41](https://github.com/LuanRT/YouTube.js/blob/853a36307b5d644ada14dcb1216c2c22c2ae7b73/src/utils/Log.ts#L41)
 
 ## Parameters
 
@@ -12,7 +12,7 @@ Defined in: [src/utils/Log.ts:41](https://github.com/LuanRT/YouTube.js/blob/0733
 
 `string`
 
-### args?
+### args
 
 ...`any`[]
 

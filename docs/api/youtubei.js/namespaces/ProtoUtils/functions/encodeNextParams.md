@@ -4,7 +4,7 @@
 
 > **encodeNextParams**(`video_ids`, `playlist_title?`): `string`
 
-Defined in: [src/utils/ProtoUtils.ts:51](https://github.com/LuanRT/YouTube.js/blob/0733f60b57877f6b8b87dfd5cc6195b5085f5c09/src/utils/ProtoUtils.ts#L51)
+Defined in: [src/utils/ProtoUtils.ts:51](https://github.com/LuanRT/YouTube.js/blob/853a36307b5d644ada14dcb1216c2c22c2ae7b73/src/utils/ProtoUtils.ts#L51)
 
 ## Parameters
 
