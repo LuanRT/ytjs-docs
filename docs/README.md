@@ -3,7 +3,7 @@ home: true
 title: Home
 heroText: YouTube.js
 heroImage: '/images/logo.png'
-tagline: A JavaScript client for YouTube's private API
+tagline: A JavaScript client for YouTube's internal API
 actions:
   - text: Get Started →
     link: /guide/
@@ -12,12 +12,12 @@ actions:
     link: /api/
     type: secondary
 features:
-  - title: 🚀 Powerful & Flexible
-    details: Access YouTube's data without restrictions. Built to handle everything from simple searches to complex operations.
-  - title: 🛡️ No API Key Required
-    details: Works without API keys or quotas. Use YouTube's private API the same way the website does.
-  - title: 🔌 Agnostic
-    details: Compatible with Node.js, Deno, and modern browsers. Use it anywhere JavaScript runs.
+  - title: Built on InnerTube
+    details: Uses the same internal API as YouTube's  web client, so you get access to the same data and features.
+  - title: No API key required
+    details: Works without API keys or quotas.
+  - title: Runtime agnostic
+    details: Works on Node.js, Deno, modern browsers, and more.
 footer: MIT Licensed | Copyright © LuanRT
 ---
 

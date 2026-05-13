@@ -86,6 +86,10 @@ const innertube = await Innertube.create(/* options */);
 - **Description**: Generates session data locally instead of retrieving it from YouTube for better performance. This is ignored if a session is already cached.
 - **Default**: `false`
 
+#### `fast_fail` (boolean)
+- **Description**: If set to `true`, session creation will fail if it's not possible to retrieve session data from YouTube. If `false`, a local fallback will be used.
+- **Default**: `false`
+
 #### `enable_session_cache` (boolean)
 - **Description**: Caches session data for future use.
 - **Default**: `true`
@@ -123,21 +127,9 @@ Below is an example using JavaScript's `Function` constructor:
 ```ts
 import { Innertube, Platform, Types } from 'youtubei.js/web';
 
-Platform.shim.eval = async (data: Types.BuildScriptResult, env: Record<string, Types.VMPrimative>) => {
-  const properties = [];
-
-  if(env.n) {
-    properties.push(`n: exportedVars.nFunction("${env.n}")`)
-  }
-
-  if (env.sig) {
-    properties.push(`sig: exportedVars.sigFunction("${env.sig}")`)
-  }
-
-  const code = `${data.output}\nreturn { ${properties.join(', ')} }`;
-
-  return new Function(code)();
-}
+Platform.shim.eval = async (data: Types.BuildScriptResult) => {
+  return new Function(data.output)();;
+};
 
 const innertube = await Innertube.create(/* options */);
 // ...
