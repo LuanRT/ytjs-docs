@@ -2,9 +2,9 @@
 
 # Class: UmpWriter
 
-Defined in: [codeberg/googlevideo/src/core/UmpWriter.ts:6](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/UmpWriter.ts#L6)
+Defined in: [src/core/UmpWriter.ts:6](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/UmpWriter.ts#L6)
 
-A serialization module that encodes data into the UMP binary format with proper type and size encoding.
+A utility class for writing data in the UMP format.
 
 ## Constructors
 
@@ -12,7 +12,7 @@ A serialization module that encodes data into the UMP binary format with proper 
 
 > **new UmpWriter**(`compositeBuffer`): `UmpWriter`
 
-Defined in: [codeberg/googlevideo/src/core/UmpWriter.ts:7](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/UmpWriter.ts#L7)
+Defined in: [src/core/UmpWriter.ts:7](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/UmpWriter.ts#L7)
 
 #### Parameters
 
@@ -28,25 +28,19 @@ Defined in: [codeberg/googlevideo/src/core/UmpWriter.ts:7](https://github.com/Lu
 
 ### write()
 
-> **write**(`partType`, `partData`): `void`
+> **write**(`type`, `data`): `void`
 
-Defined in: [codeberg/googlevideo/src/core/UmpWriter.ts:16](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/UmpWriter.ts#L16)
-
-Writes a part to the buffer.
+Defined in: [src/core/UmpWriter.ts:11](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/UmpWriter.ts#L11)
 
 #### Parameters
 
-##### partType
+##### type
 
 `number`
 
-The type of the part.
-
-##### partData
+##### data
 
 `Uint8Array`
-
-The data of the part.
 
 #### Returns
 

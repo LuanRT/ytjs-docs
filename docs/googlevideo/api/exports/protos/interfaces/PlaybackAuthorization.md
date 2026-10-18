@@ -2,7 +2,7 @@
 
 # Interface: PlaybackAuthorization
 
-Defined in: [codeberg/googlevideo/protos/generated/misc/common.ts:214](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/misc/common.ts#L214)
+Defined in: [protos/generated/misc/common.ts:214](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L214)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [codeberg/googlevideo/protos/generated/misc/common.ts:214](https://g
 
 > **authorizedFormats**: [`AuthorizedFormat`](AuthorizedFormat.md)[]
 
-Defined in: [codeberg/googlevideo/protos/generated/misc/common.ts:215](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/misc/common.ts#L215)
+Defined in: [protos/generated/misc/common.ts:215](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L215)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [codeberg/googlevideo/protos/generated/misc/common.ts:215](https://g
 
 > `optional` **sabrLicenseConstraint**: `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [codeberg/googlevideo/protos/generated/misc/common.ts:216](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/misc/common.ts#L216)
+Defined in: [protos/generated/misc/common.ts:216](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L216)

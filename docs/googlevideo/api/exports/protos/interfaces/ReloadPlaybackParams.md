@@ -2,7 +2,7 @@
 
 # Interface: ReloadPlaybackParams
 
-Defined in: [codeberg/googlevideo/protos/generated/video\_streaming/reload\_player\_response.ts:12](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/video_streaming/reload_player_response.ts#L12)
+Defined in: [protos/generated/video\_streaming/reload\_player\_response.ts:12](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/reload_player_response.ts#L12)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [codeberg/googlevideo/protos/generated/video\_streaming/reload\_play
 
 > `optional` **token**: `string`
 
-Defined in: [codeberg/googlevideo/protos/generated/video\_streaming/reload\_player\_response.ts:13](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/video_streaming/reload_player_response.ts#L13)
+Defined in: [protos/generated/video\_streaming/reload\_player\_response.ts:13](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/reload_player_response.ts#L13)

@@ -2,7 +2,7 @@
 
 # Interface: UmpProcessingResult
 
-Defined in: [codeberg/googlevideo/src/core/SabrUmpProcessor.ts:33](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/SabrUmpProcessor.ts#L33)
+Defined in: [src/core/SabrUmpProcessor.ts:36](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/SabrUmpProcessor.ts#L36)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [codeberg/googlevideo/src/core/SabrUmpProcessor.ts:33](https://githu
 
 > `optional` **data**: `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [codeberg/googlevideo/src/core/SabrUmpProcessor.ts:34](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/SabrUmpProcessor.ts#L34)
+Defined in: [src/core/SabrUmpProcessor.ts:37](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/SabrUmpProcessor.ts#L37)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [codeberg/googlevideo/src/core/SabrUmpProcessor.ts:34](https://githu
 
 > **done**: `boolean`
 
-Defined in: [codeberg/googlevideo/src/core/SabrUmpProcessor.ts:35](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/core/SabrUmpProcessor.ts#L35)
+Defined in: [src/core/SabrUmpProcessor.ts:38](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/core/SabrUmpProcessor.ts#L38)

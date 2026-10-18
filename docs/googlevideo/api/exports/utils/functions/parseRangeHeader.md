@@ -2,18 +2,16 @@
 
 # Function: parseRangeHeader()
 
-> **parseRangeHeader**(`rangeHeaderValue`): `undefined` \| `Range`
+> **parseRangeHeader**(`rangeHeaderValue`): `Range` \| `undefined`
 
-Defined in: [codeberg/googlevideo/src/utils/shared.ts:54](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/src/utils/shared.ts#L54)
-
-Parses the Range header value to extract the start and end byte positions.
+Defined in: [src/utils/urlUtils.ts:6](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/utils/urlUtils.ts#L6)
 
 ## Parameters
 
 ### rangeHeaderValue
 
-`undefined` | `string`
+`string` | `undefined`
 
 ## Returns
 
-`undefined` \| `Range`
+`Range` \| `undefined`

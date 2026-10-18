@@ -4,4 +4,4 @@
 
 > **OnesieHeader**: `MessageFns`\<[`OnesieHeader`](../interfaces/OnesieHeader.md)\>
 
-Defined in: [codeberg/googlevideo/protos/generated/video\_streaming/onesie\_header.ts:14](https://github.com/LuanRT/googlevideo/blob/19854137cadaf49fd755394883dfd7fe5fdaba20/protos/generated/video_streaming/onesie_header.ts#L14)
+Defined in: [protos/generated/video\_streaming/onesie\_header.ts:14](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/onesie_header.ts#L14)
