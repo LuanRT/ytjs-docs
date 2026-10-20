@@ -4,7 +4,7 @@
 
 > **buildAudioCapability**(`format`, `isSurroundSupported`): [`AudioFormatCapability`](../../protos/interfaces/AudioFormatCapability.md) \| `undefined`
 
-Defined in: [src/utils/mediaCapabilityUtils.ts:366](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/utils/mediaCapabilityUtils.ts#L366)
+Defined in: [src/utils/mediaCapabilityUtils.ts:366](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/utils/mediaCapabilityUtils.ts#L366)
 
 ## Parameters
 

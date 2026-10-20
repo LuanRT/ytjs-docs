@@ -2,7 +2,7 @@
 
 # Interface: RequestCancellationPolicy
 
-Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:12](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/request_cancellation_policy.ts#L12)
+Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:12](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/request_cancellation_policy.ts#L12)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:
 
 > `optional` **policyEnforcementIntervalMs**: `number`
 
-Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:13](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/request_cancellation_policy.ts#L13)
+Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:13](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/request_cancellation_policy.ts#L13)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:
 
 > **items**: `RequestCancellationPolicy_RequestCancellationPolicyItem`[]
 
-Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:14](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/request_cancellation_policy.ts#L14)
+Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:14](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/request_cancellation_policy.ts#L14)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:
 
 > `optional` **noDataTimeoutMs**: `number`
 
-Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:15](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/request_cancellation_policy.ts#L15)
+Defined in: [protos/generated/video\_streaming/request\_cancellation\_policy.ts:15](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/request_cancellation_policy.ts#L15)

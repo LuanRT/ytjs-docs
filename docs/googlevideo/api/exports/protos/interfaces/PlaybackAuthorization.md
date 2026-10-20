@@ -2,7 +2,7 @@
 
 # Interface: PlaybackAuthorization
 
-Defined in: [protos/generated/misc/common.ts:214](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L214)
+Defined in: [protos/generated/misc/common.ts:214](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/misc/common.ts#L214)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [protos/generated/misc/common.ts:214](https://github.com/LuanRT/goog
 
 > **authorizedFormats**: [`AuthorizedFormat`](AuthorizedFormat.md)[]
 
-Defined in: [protos/generated/misc/common.ts:215](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L215)
+Defined in: [protos/generated/misc/common.ts:215](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/misc/common.ts#L215)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [protos/generated/misc/common.ts:215](https://github.com/LuanRT/goog
 
 > `optional` **sabrLicenseConstraint**: `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [protos/generated/misc/common.ts:216](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/misc/common.ts#L216)
+Defined in: [protos/generated/misc/common.ts:216](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/misc/common.ts#L216)

@@ -2,7 +2,7 @@
 
 # Interface: CryptoParams
 
-Defined in: [protos/generated/video\_streaming/crypto\_params.ts:13](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/crypto_params.ts#L13)
+Defined in: [protos/generated/video\_streaming/crypto\_params.ts:13](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/crypto_params.ts#L13)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [protos/generated/video\_streaming/crypto\_params.ts:13](https://git
 
 > `optional` **hmac**: `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [protos/generated/video\_streaming/crypto\_params.ts:14](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/crypto_params.ts#L14)
+Defined in: [protos/generated/video\_streaming/crypto\_params.ts:14](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/crypto_params.ts#L14)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [protos/generated/video\_streaming/crypto\_params.ts:14](https://git
 
 > `optional` **iv**: `Uint8Array`\<`ArrayBufferLike`\>
 
-Defined in: [protos/generated/video\_streaming/crypto\_params.ts:15](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/crypto_params.ts#L15)
+Defined in: [protos/generated/video\_streaming/crypto\_params.ts:15](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/crypto_params.ts#L15)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [protos/generated/video\_streaming/crypto\_params.ts:15](https://git
 
 > `optional` **compressionType**: [`CompressionType`](../enumerations/CompressionType.md)
 
-Defined in: [protos/generated/video\_streaming/crypto\_params.ts:16](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/crypto_params.ts#L16)
+Defined in: [protos/generated/video\_streaming/crypto\_params.ts:16](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/crypto_params.ts#L16)

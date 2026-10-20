@@ -11,6 +11,7 @@ This module contains general utilities.
 
 ## Classes
 
+- [BandwidthEstimator](classes/BandwidthEstimator.md)
 - [CacheManager](classes/CacheManager.md)
 - [EventEmitterLike](classes/EventEmitterLike.md)
 - [Logger](classes/Logger.md)
@@ -20,6 +21,7 @@ This module contains general utilities.
 
 ## Interfaces
 
+- [BandwidthEstimatorOptions](interfaces/BandwidthEstimatorOptions.md)
 - [CacheEntry](interfaces/CacheEntry.md)
 
 ## Variables

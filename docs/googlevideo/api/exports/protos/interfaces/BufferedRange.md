@@ -2,7 +2,7 @@
 
 # Interface: BufferedRange
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:14](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L14)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:14](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L14)
 
 ## Properties
 
@@ -10,39 +10,39 @@ Defined in: [protos/generated/video\_streaming/buffered\_range.ts:14](https://gi
 
 > **formatId**: [`FormatId`](FormatId.md) \| `undefined`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:15](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L15)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:15](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L15)
 
 ***
 
-### startTimeMs
+### startTimeMs?
 
-> **startTimeMs**: `string`
+> `optional` **startTimeMs**: `string`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:16](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L16)
-
-***
-
-### durationMs
-
-> **durationMs**: `string`
-
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:17](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L17)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:16](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L16)
 
 ***
 
-### startSegmentIndex
+### durationMs?
 
-> **startSegmentIndex**: `number`
+> `optional` **durationMs**: `string`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:18](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L18)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:17](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L17)
 
 ***
 
-### endSegmentIndex
+### startSegmentIndex?
 
-> **endSegmentIndex**: `number`
+> `optional` **startSegmentIndex**: `number`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:19](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L19)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:18](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L18)
+
+***
+
+### endSegmentIndex?
+
+> `optional` **endSegmentIndex**: `number`
+
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:19](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L19)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [protos/generated/video\_streaming/buffered\_range.ts:19](https://gi
 
 > `optional` **timeRange**: [`TimeRange`](TimeRange.md)
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:20](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L20)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:20](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L20)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [protos/generated/video\_streaming/buffered\_range.ts:20](https://gi
 
 > `optional` **field9**: `BufferedRange_UnknownMessage1`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:21](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L21)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:21](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L21)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [protos/generated/video\_streaming/buffered\_range.ts:21](https://gi
 
 > `optional` **field11**: `BufferedRange_UnknownMessage2`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:22](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L22)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:22](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L22)
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: [protos/generated/video\_streaming/buffered\_range.ts:22](https://gi
 
 > `optional` **field12**: `BufferedRange_UnknownMessage2`
 
-Defined in: [protos/generated/video\_streaming/buffered\_range.ts:23](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/buffered_range.ts#L23)
+Defined in: [protos/generated/video\_streaming/buffered\_range.ts:23](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/buffered_range.ts#L23)

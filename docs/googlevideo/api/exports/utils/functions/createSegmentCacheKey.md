@@ -4,7 +4,7 @@
 
 > **createSegmentCacheKey**(`mediaHeader`, `format?`): `string`
 
-Defined in: [src/utils/formatUtils.ts:183](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/utils/formatUtils.ts#L183)
+Defined in: [src/utils/formatUtils.ts:183](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/utils/formatUtils.ts#L183)
 
 Creates a segment cache key.
 

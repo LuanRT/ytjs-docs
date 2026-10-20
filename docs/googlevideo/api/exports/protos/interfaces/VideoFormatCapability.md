@@ -2,7 +2,7 @@
 
 # Interface: VideoFormatCapability
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:23](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L23)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:23](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L23)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:23](https:
 
 > `optional` **videoCodec**: `number`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:24](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L24)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:24](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L24)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:24](https:
 
 > `optional` **efficient**: `boolean`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:25](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L25)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:25](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L25)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:25](https:
 
 > `optional` **maxHeight**: `number`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:26](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L26)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:26](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L26)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:26](https:
 
 > `optional` **maxWidth**: `number`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:27](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L27)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:27](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L27)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:27](https:
 
 > `optional` **maxFramerate**: `number`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:28](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L28)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:28](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L28)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:28](https:
 
 > `optional` **maxBitrateBps**: `number`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:29](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L29)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:29](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L29)
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:29](https:
 
 > `optional` **is10BitSupported**: `boolean`
 
-Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:30](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/protos/generated/video_streaming/media_capabilities.ts#L30)
+Defined in: [protos/generated/video\_streaming/media\_capabilities.ts:30](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/protos/generated/video_streaming/media_capabilities.ts#L30)

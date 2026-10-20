@@ -2,7 +2,7 @@
 
 # Interface: HeartbeatParams
 
-Defined in: [src/types/sabrStreamTypes.ts:113](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L113)
+Defined in: [src/types/sabrStreamTypes.ts:113](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L113)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/sabrStreamTypes.ts:113](https://github.com/LuanRT/googlev
 
 > `optional` **heartbeatServerData**: `string`
 
-Defined in: [src/types/sabrStreamTypes.ts:114](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L114)
+Defined in: [src/types/sabrStreamTypes.ts:114](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L114)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/sabrStreamTypes.ts:114](https://github.com/LuanRT/googlev
 
 > `optional` **heartbeatToken**: `string`
 
-Defined in: [src/types/sabrStreamTypes.ts:115](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L115)
+Defined in: [src/types/sabrStreamTypes.ts:115](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L115)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/types/sabrStreamTypes.ts:115](https://github.com/LuanRT/googlev
 
 > `optional` **intervalMilliseconds**: `string`
 
-Defined in: [src/types/sabrStreamTypes.ts:116](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L116)
+Defined in: [src/types/sabrStreamTypes.ts:116](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L116)

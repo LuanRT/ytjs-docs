@@ -2,7 +2,7 @@
 
 # Interface: VideoFormatPreferences
 
-Defined in: [src/types/sabrStreamTypes.ts:154](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L154)
+Defined in: [src/types/sabrStreamTypes.ts:154](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L154)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/sabrStreamTypes.ts:154](https://github.com/LuanRT/googlev
 
 > `optional` **quality**: `string`
 
-Defined in: [src/types/sabrStreamTypes.ts:161](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L161)
+Defined in: [src/types/sabrStreamTypes.ts:161](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L161)
 
 Quality label.
 If not provided, the highest quality format will be selected.
@@ -33,7 +33,7 @@ undefined
 
 > `optional` **container**: `"webm"` \| `"mp4"`
 
-Defined in: [src/types/sabrStreamTypes.ts:166](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L166)
+Defined in: [src/types/sabrStreamTypes.ts:166](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L166)
 
 Required container format.
 
@@ -49,7 +49,7 @@ undefined
 
 > `optional` **preferredVideoCodec**: `"h264"` \| `"vp9"` \| `"av1"`
 
-Defined in: [src/types/sabrStreamTypes.ts:171](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L171)
+Defined in: [src/types/sabrStreamTypes.ts:171](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L171)
 
 Video codec to prefer when available.
 
@@ -65,7 +65,7 @@ undefined
 
 > `optional` **superResolution**: `boolean`
 
-Defined in: [src/types/sabrStreamTypes.ts:172](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L172)
+Defined in: [src/types/sabrStreamTypes.ts:172](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L172)
 
 ***
 
@@ -73,4 +73,4 @@ Defined in: [src/types/sabrStreamTypes.ts:172](https://github.com/LuanRT/googlev
 
 > `optional` **hdr**: `boolean`
 
-Defined in: [src/types/sabrStreamTypes.ts:173](https://github.com/LuanRT/googlevideo/blob/96d1418984d00ac2797a1dafe4625d1368b5b9aa/src/types/sabrStreamTypes.ts#L173)
+Defined in: [src/types/sabrStreamTypes.ts:173](https://github.com/LuanRT/googlevideo/blob/ea3179379410422390a41f237ef950f38869c4cf/src/types/sabrStreamTypes.ts#L173)

@@ -11,6 +11,5 @@ This module contains type definitions used across the library.
 
 ## Type Aliases
 
-- [Part](type-aliases/Part.md)
 - [CreateFormatKeyInput](type-aliases/CreateFormatKeyInput.md)
 - [FetchFunction](type-aliases/FetchFunction.md)
