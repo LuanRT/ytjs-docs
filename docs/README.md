@@ -26,7 +26,7 @@ footer: MIT Licensed | Copyright © LuanRT
 <div class="project-grid">
   <div class="project-card">
     <h3>GoogleVideo</h3>
-    <p>A collection of modules for working with YouTube's proprietary video streaming protocols (UMP/SABR).</p>
+    <p>A collection of modules for handling YouTube's custom UMP format and SABR streaming protocol.</p>
     <router-link to="/googlevideo/" class="project-link">View Documentation →</router-link>
   </div>
   
